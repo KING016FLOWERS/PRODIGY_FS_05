@@ -22,6 +22,34 @@ This project is built with Vite and React, delivering a smooth and fast developm
 - **Image Storage**: Cloudinary
 - **Email Management**: Mailtrap
 
+## To Setup .env
+```
+# Server Port
+PORT=5000
+
+# MongoDB URI
+MONGO_URI=<your_mongo_uri>
+
+# JWT Authentication
+JWT_SECRET=<yourverystrongsecret>
+
+# Node Environment
+NODE_ENV=development
+
+# Mailtrap for Email Notifications
+MAILTRAP_TOKEN=<your_mailtrap_token>
+EMAIL_FROM=mailtrap@demomailtrap.com
+EMAIL_FROM_NAME=<Your_Name>
+
+# Cloudinary for Image Storage
+CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
+
+# Client URL
+CLIENT_URL=http://localhost:5173
+```
+
 ## To Run the Application
 ### Frontend
 ```
